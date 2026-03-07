@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Art Date</title>
+    <title>Arcadian Light</title>
     <!-- The style.css file allows you to change the look of your web pages.
          If you include the next line in all your web pages, they will all share the same look.
          This makes it easier to make new pages for your site. -->
@@ -16,20 +16,22 @@
    <CENTER>
    
    <Br>
-   <h1 style="color:#fefeff;"> A R T  L O V E R</h1>
+   <h1 style="color:#fefeff;"> A R C A D I A N L I G H T</h1>
    
    
-   <!--super fancy menu-->
+   <!--TOP menu--
+	<div id="topmenu">
    <h3 style="background:#004444; max-width:768px; height:25px; line-height:25px;">
    <a href="index.html">Home</a> -
    <a href="#CardDraw">Project</a> -
    <a href="">More Info</a>
    </h3>
+   </div>
    
    <!--Marker is a Marker Plus+-->
    
 
-   <div style="text-align:left; max-width:768px; padding: 10px">
+   <div onclick="GetArtPiece()" style="text-align:left; max-width:768px; padding: 10px">
    
    <!--p> Here we are again. <br>
         <!--And again. <Br-->
@@ -39,7 +41,11 @@
   <!--img src="image01.jpg" alt="image will go here"-->
   
   
-		<center><h2 onclick="GetaCard()" style="cursor:pointer;">TEXT ONLY TAROT</h2></center>
+		<center>
+
+			<img id="artpiece" src=""></src>
+			
+		</center>
 		<p class="pCard" id="CardDraw"> </p>
 
   
