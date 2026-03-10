@@ -112,6 +112,27 @@ const cards = [Fool, Magician, HighPriestess, Empress,
 
 
 
+function GetArtPiece(){
+
+	alert('GetArtPiece');
+
+	let imageSource = null;
+	imageSource = (Math.floor(Math.random() * 77));
+
+	
+	document.getElementById("artpiece").src = imageSource;
+
+	document.
+}
+
+function LiftImage(){}
+
+function DragImage(){}
+
+function ImageExit(){}
+
+
+
 function GetaCard(){
 
 	//alert('title');
